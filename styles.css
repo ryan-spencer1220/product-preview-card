@@ -20,17 +20,17 @@ body {
   background-color: var(--var-white);
   width: 365px;
   height: auto;
-  border-radius: 10px;
+  border-radius: 1em;
 }
 
 .text-content {
-  padding: 30px;
+  padding: 2em;
 }
 
 .product-img {
   background-image: url("./images/image-product-mobile.jpg");
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
   background-size: cover;
   background-repeat: no-repeat; /* Prevents tiling */
   background-position: center; /* Centers the image */
@@ -42,13 +42,13 @@ body {
   text-transform: uppercase;
   font-family: "Montserrat", serif;
   letter-spacing: 5px;
-  font-size: 12px;
+  font-size: 0.8rem;
   color: var(--var-gray-blue);
 }
 
 .product-title {
   font-family: "Fraunces", serif;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
   margin: 0;
 }
@@ -58,19 +58,19 @@ body {
   color: var(--var-gray-blue);
   margin-bottom: 0;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
 }
 
 .price-container {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 2rem;
 }
 
 .sale-price {
   font-family: "Fraunces", serif;
-  font-size: 32px;
+  font-size: 2rem;
   color: var(--var-green);
   font-weight: 700;
   margin: 20px 0px;
@@ -78,7 +78,7 @@ body {
 
 .og-price {
   font-family: "Montserrat", serif;
-  font-size: 12px;
+  font-size: 0.8rem;
   text-decoration: line-through;
   color: var(--var-gray-blue);
 }
@@ -87,12 +87,17 @@ body {
   background-color: var(--var-green);
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 0.75rem;
   align-items: center;
   color: var(--var-white);
   font-family: "Montserrat", serif;
   font-weight: 500;
-  border-radius: 10px;
+  border-radius: 1rem;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: darkgreen;
 }
 
 .button img {
@@ -108,20 +113,20 @@ body {
   }
 
   .text-content {
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
   }
 
   .product-img {
     background-image: url("./images/image-product-desktop.jpg");
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 0px;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 0;
     height: 100%;
   }
 
   .text-content {
     background-color: var(--var-white);
-    padding: 30px;
+    padding: 2rem;
   }
 }
